@@ -3,7 +3,11 @@ import pytest
 
 def test_can_drink(capsys):
     # Again being a bit funny to grab the print...
+<<<<<<< HEAD
     import B_checking_the_right_thing as A
+=======
+    import B_checking_the_right_thing as B
+>>>>>>> c83c2b2eec9df855815cd65d56aa1de88ae94ed3
     out, _ = capsys.readouterr()
 
     # Here we're being flexible in allowing where folks can print things

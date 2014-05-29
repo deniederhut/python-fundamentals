@@ -5,7 +5,7 @@ sally_age = 12
 john_age = 21
 
 def can_drink(age):
-    return False # Again - make this depend on the age!
+    return age >= 21 # Again - make this depend on the age!
 
 print "Sally can drink?", can_drink(sally_age)
 print "John can drink?", can_drink(john_age)

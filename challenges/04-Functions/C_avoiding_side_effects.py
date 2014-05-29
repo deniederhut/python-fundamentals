@@ -9,8 +9,7 @@
 def exponentiate(x, y):
     return x ** y
 
-print '2 ** 3 =', exponentiate(2,3)
-
 if __name__ == '__main__':
-    pass # This is python's "placeholder" do-nothing statement
-         # What happens if you delete this without a replacement?
+	print '2 ** 3 =', exponentiate(2,3) # This is python's "placeholder" 
+	# do-nothing statement
+        # Only applies arguments if you run it as a script
